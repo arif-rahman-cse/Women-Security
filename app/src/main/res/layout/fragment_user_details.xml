@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.UserDetailsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        // Main Upper wrapper
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E3D8EC"
+            android:orientation="vertical">
+
+            // Upper part 1
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/firstlayer"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:layout_marginBottom="20dp">
+
+                    <RelativeLayout
+                        android:id="@+id/profileImageRelativeLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/prifileImageId"
+                            android:layout_width="90dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginBottom="50dp"
+                            android:background="@drawable/square"
+                            android:src="@drawable/profile"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginRight="5dp" />
+
+                        <ImageView
+                            android:id="@+id/takePhotoId"
+                            android:layout_marginTop="13dp"
+                            android:layout_marginLeft="21dp"
+                            android:foregroundGravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_add_a_photo_black_24dp" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/profileUserName"
+                        android:layout_toRightOf="@id/profileImageRelativeLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="35dp"
+                        android:paddingLeft="20dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="serif"
+                            android:text="Anika Akter"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="serif"
+                            android:paddingBottom="10dp"
+                            android:text="CEO of SoftTech IT"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_toRightOf="@id/profileUserName"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="bottom"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="20dp">
+
+                        // Main Edit Profile part
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="0dp"
+                            android:orientation="horizontal"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <LinearLayout android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="right"
+                                    android:orientation="horizontal"
+                                    android:paddingTop="10dp"
+                                    android:paddingRight="15dp">
+
+                                    <ImageView
+                                        android:id="@+id/editProfile"
+                                        android:layout_width="30dp"
+                                        android:layout_height="30dp"
+                                        android:background="@drawable/square"
+                                        android:padding="4dp"
+                                        android:paddingLeft="30dp"
+                                        android:src="@drawable/profileedit"
+                                        android:visibility="visible" />
+
+                                    <ImageView
+                                        android:id="@+id/saveEditProfile"
+                                        android:layout_width="30dp"
+                                        android:layout_height="30dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:background="@drawable/square"
+                                        android:padding="4dp"
+                                        android:paddingLeft="0dp"
+                                        android:src="@drawable/ic_save_black_24dp"
+                                        android:visibility="gone" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        // Start Main Lower Wrapper
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="0dp">
+
+                // Email field
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <EditText android:id="@+id/emailFieldId"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:background="@android:color/transparent"
+                            android:drawableLeft="@drawable/ic_email_black_24dp"
+                            android:drawablePadding="12dp"
+                            android:focusable="false"
+                            android:gravity="left"
+                            android:text="anikaakter@gmail.com"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                // Separetor Line
+                <View android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/primary_color3" />
+
+
+                // Mobile field
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+                    <EditText android:id="@+id/mobilefieldId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:background="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_phone_black_24dp"
+                        android:drawablePadding="12dp"
+                        android:focusable="false"
+                        android:gravity="left"
+                        android:text="+880 1955209050"
+                        android:textSize="15sp" />
+
+
+                </LinearLayout>
+
+
+                // Separetor Line
+                <View android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/primary_color3" />
+
+                // PathaShathi Joined Day fields
+                <LinearLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+
+                    <EditText
+                        android:id="@+id/pathshathiJointFieldId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:background="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_account_balance_black_24dp"
+                        android:drawablePadding="12dp"
+                        android:focusable="false"
+                        android:gravity="left"
+                        android:text="Pathshathi Joind : 02 Dec 2018"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+
+                // Separetor Line
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/primary_color3" />
+
+                // Address field
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+                    <EditText
+                        android:id="@+id/addressFieldId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:background="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_add_location_black_24dp"
+                        android:drawablePadding="12dp"
+                        android:focusable="false"
+                        android:gravity="left"
+                        android:text="Goaltaq, Dhakshinkhan."
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+
+                // Separator Line
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/primary_color3" />
+
+                //City field
+                <LinearLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+                    <EditText
+                        android:id="@+id/cityFieldId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:background="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_my_location2"
+                        android:drawablePadding="12dp"
+                        android:focusable="false"
+                        android:gravity="left"
+                        android:text="Dhaka City"
+                        android:textSize="15sp" />
+
+
+                </LinearLayout>
+
+                // Separator Line
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/primary_color3" />
+
+                // Country field
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+                    <EditText
+                        android:id="@+id/countryFieldId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:background="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_golf_course_black_24dp"
+                        android:drawablePadding="12dp"
+                        android:focusable="false"
+                        android:gravity="left"
+                        android:text="Bangladesh"
+                        android:textSize="15sp" />
+
+
+                </LinearLayout>
+
+
+                // Separator Line
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/primary_color3" />
+
+                // Birth Day field
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+
+                    <EditText
+                        android:id="@+id/birthDayFieldId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:background="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_wb_sunny_black_24dp"
+                        android:drawablePadding="12dp"
+                        android:focusable="false"
+                        android:gravity="left"
+                        android:text="Birth Day : 23 Dec, 1993"
+                        android:textSize="15sp" />
+
+
+                </LinearLayout>
+
+                // Separator Line
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/primary_color3" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+        // End Main Lower Wrapper
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

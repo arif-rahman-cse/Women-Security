@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">patha_sathi</string>
+    <string name="patha_shathi">Pathashai nam</string>
+    <string name="user_name">Your Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email/Phone Number</string>
+    <string name="email1">Email</string>
+    <string name="mobile">Mobile</string>
+    <string name="joined">Pathasathi joined</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="country">Country</string>
+    <string name="birthday">Birthday</string>
+    <string name="id_card">ID card verification</string>
+    <string name="registration">Registration</string>
+    <string name="user_profile">User Profile</string>
+    <string name="change_language">Change Lenguage</string>
+    <string name="signup">Registration complete? please LogIn</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_in">Sign In</string>
+    <string name="login">Login</string>
+    <string name="keep_me">Keep Me Logged In</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="welcome">Welcome to registration</string>
+    <string name="lunch_your_app">Lunch Your App</string>
+    <string name="google_map_api_key" translatable="false">AIzaSyC5_gqlCl17Qh83LGr69nuGD2vvaBr2_RE</string>
+
+    <string name="current_location">Current Location</string>
+
+
+    <string-array name="notification_list">
+        <item>Lelin posted for help </item>
+        <item>Keya wants add you as pathosathi </item>
+        <item>Sumon changed his profile picture</item>
+        <item>Kayes likes your post</item>
+        <item>Mishu wants add you as pathosathi </item>
+        <item>Mitu accepted your pathosathi request </item>
+        <item>Mousumi commented on your post</item>
+        <item>You have new friend suggestion </item>
+        <item>Kamona wants add you as pathosathi </item>
+        <item>Sumaiya wants add you as pathosathi </item>
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps_current">Map</string>
+
+    <string name="permission_refused">Permission was not granted</string>
+    <string name="permission_request_title">Special Permission Request</string>
+    <string name="app_permission_notice">This permission request is very important to your app functionality. If it is not granted your app might not work the way it is intended</string>
+    <string name="failed_draw">Empty line path return</string>
+    <string name="server_error">Server error. Something when wrong with the server</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary1">#080808</color>
+    <color name="colorPrimary2">#8bbc4c</color>
+    <color name="colorPrimaryDark1">#00574B</color>
+    <color name="colorAccent1">#D81B60</color>
+    <color name="startblue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
+    <color name="es1">#666666</color>
+    <color name="es2">#080808</color>
+
+    //use alamin
+    <color name="colorPrimary">#008577</color>
+    <color name="colorGreen">#80c12c</color>
+    <color name="colorAsh">#696868</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#fff</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorRipple">#A9A9F5</color>
+    <color name="colorRouteLine">#FF4081</color>
+    //use alvi
+    <color name="colorPrimaryalviB">#3F51B5</color>
+    <color name="colorPrimaryDarkalviB">#303F9F</color>
+    <color name="colorAccentalviP">#FF4081</color>
+    <color name="back">#E4EBE7</color>
+
+ //Profile Design Color
+
+ <color name="transparent">#0C000000</color>
+ <color name="primary_color">#FFFFFF</color>
+ <color name="primary_color2">#252121</color>
+ <color name="primary_color3">#37E73F</color>
+
+    //main Color
+ <color name="main_color">#813187</color>
+
+</resources>

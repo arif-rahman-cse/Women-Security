@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/cardViewId"
+        android:layout_height="wrap_content">
+       <LinearLayout
+           android:gravity="center_vertical"
+           android:padding="15dp"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <ImageView
+               android:id="@+id/notificationImageId"
+               android:src="@drawable/notification_icon"
+               android:layout_width="40dp"
+               android:layout_height="40dp" />
+
+           <TextView
+               android:paddingLeft="37dp"
+               android:textSize="20sp"
+               android:id="@+id/notificationTextId"
+               android:text="Notification Details"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+
+       </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

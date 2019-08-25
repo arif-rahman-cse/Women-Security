@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ভাষা পথসাথী</string>
+
+    <string name="patha_shathi">পথসাথী নাম</string>
+    <string name="user_name">আমার নাম</string>
+    <string name="password">পাসওয়ার্ড</string>
+    <string name="password1">আপনার পাসওয়ার্ড লিখুন</string>
+    <string name="email">আপনার ইমেইল  লিখুন</string>
+    <string name="email1">ইমেল</string>
+    <string name="submit">জমা দিন</string>
+    <string name="mobile">মোবাইল</string>
+    <string name="joined">পথসাথীতে যোগদান করেছেন</string>
+    <string name="address">ঠিকানা</string>
+    <string name="city">শহর</string>
+    <string name="country">দেশ</string>
+    <string name="birthday">জন্মদিন</string>
+    <string name="id_card">আইডি কার্ড যাচাই</string>
+    <string name="registration">রেজিস্ট্রেশন</string>
+    <string name="user_profile">ব্যবহারকারী প্রোফাইল</string>
+    <string name="change_language">ভাষা  পরিবর্তন  করুন </string>
+    <string name="signup">রেজিস্ট্রেশন করেছেন? লগইন করুন</string>
+    <string name="create_account">একাউন্ট খুলুন </string>
+    <string name="sign_in">রেজিস্ট্রেশন করুন</string>
+    <string name="login">লগইন</string>
+    <string name="keep_me">আমাকে লগইন রাখুন</string>
+    <string name="forgot_password">পাসওয়ার্ড ভুলে গেছেন ?</string>
+    <string name="welcome"> স্বাগতম </string>
+    <string name="lunch_your_app"> অ্যাপ চালু করুন</string>
+</resources>

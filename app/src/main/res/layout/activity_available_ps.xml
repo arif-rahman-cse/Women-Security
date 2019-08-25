@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.AvailablePsActivity">
+    <ImageView
+
+        android:id="@+id/mapImageId"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/map"
+        />
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:orientation="horizontal"
+       android:id="@+id/recyclerViewId"
+       android:layout_width="match_parent"
+       android:layout_height="250dp">
+
+   </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+
+
+</LinearLayout>

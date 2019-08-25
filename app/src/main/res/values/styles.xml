@@ -1,0 +1,38 @@
+<resources>
+
+    <style name="small_title_text">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:paddingBottom">5dip</item>
+    </style>
+    <style name="small_body_text">
+        <item name="android:fontFamily">@font/likhan</item>
+    </style>
+    <style name="large_title_text">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:paddingBottom">5dip</item>
+    </style>
+
+    <style name="large_body_text">
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <!-- Base application theme is the default theme. -->
+    <style name="Theme" parent="android:Theme">
+    </style>
+
+
+    <style name="Theme.Small" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/main_color</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.Large" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/main_color</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
